@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+.catalog {
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+.kartinka {
+	width: 100%;
+	object-fit: cover;
+	height: 300px;
+}
+.element {
+	background-color: #ccc;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	transition: 1s;
+}
+.element:hover {
+	background-color: #000;
+	color: #fff;
+}
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr !important;
+	grid-template-rows: 1fr;
+	width: 80%;
+	margin: 0 auto;
+  margin-top: 100px
+}
+
+a {
+	text-decoration: none;
+	color: #000
+}
